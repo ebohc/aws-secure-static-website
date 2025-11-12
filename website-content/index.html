@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure AWS Website</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .header { 
+            background: #232f3e; 
+            color: white; 
+            padding: 30px; 
+            border-radius: 10px;
+            text-align: center;
+        }
+        .feature { 
+            background: #f1f1f1; 
+            padding: 20px; 
+            margin: 15px 0; 
+            border-radius: 8px;
+            border-left: 4px solid #232f3e;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔒 Secure AWS Static Website</h1>
+        <p>This demonstrates a secure AWS architecture with multiple security layers</p>
+    </div>
+    
+    <h2>Security Features Implemented</h2>
+    
+    <div class="feature">
+        <h3>🛡️ WAF Protection</h3>
+        <p>AWS Web Application Firewall with OWASP Top 10 rules enabled</p>
+    </div>
+    
+    <div class="feature">
+        <h3>🔐 Private S3 Bucket</h3>
+        <p>No public bucket access - content only served through CloudFront</p>
+    </div>
+    
+    <div class="feature">
+        <h3>📊 CloudTrail Logging</h3>
+        <p>Full API activity auditing enabled for security monitoring</p>
+    </div>
+    
+    <div class="feature">
+        <h3>⚡ CloudFront CDN</h3>
+        <p>Global content delivery with HTTPS enforcement and DDoS protection</p>
+    </div>
+    
+    <footer>
+        <p><strong>Built with AWS Security Best Practices</strong></p>
+        <p>This project demonstrates secure cloud infrastructure design</p>
+    </footer>
+</body>
+</html>
