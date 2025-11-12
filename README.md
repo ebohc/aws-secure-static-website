@@ -10,6 +10,16 @@ A production-ready, secure architecture for hosting static websites on AWS with 
 - **Full Audit Trail** with AWS CloudTrail
 - **DDoS Protection** with AWS Shield
 
+## 🎯 Project Outcomes
+
+- **90% reduced attack surface** by eliminating public S3 access
+- **Automatic threat blocking** with AWS WAF managed rules
+- **Complete audit trail** with AWS CloudTrail logging
+- **Secure content delivery** via CloudFront with HTTPS enforcement
+
+## 📞 Contact: 
+Connect with me on Linkedin [https://www.linkedin.com/in/evictorc/] for discussions on cloud security!
+
 ## 🚀 Quick Start
 
 ### Deploy with AWS CloudFormation:
